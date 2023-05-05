@@ -1,0 +1,76 @@
+H1{
+	text-align: center;
+	font-size: 75px;
+}
+
+.shop {
+	display: grid;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 200px 200px 200px;
+	grid-template-rows: 200px 200px 200px;
+	grid-gap: 10px;
+}
+
+.itemtitle{
+ grid-column: 1/3;
+ rid-row: 1/3;
+}
+
+.firstitem img,.seconditem img ,.thirtitem img,.fouritem img,.fiveitem img,.sixitem img,.panier img {
+	max-width: 40%;
+	height: 75px;
+	float:none;
+}
+
+.firstitem {
+	grid-column: 1/1;
+	grid-row: 2/3;
+	text-align: center;
+	background-color: blue ;
+	border-radius: 30px;	
+}
+
+.seconditem{
+	grid-column: 2/3;
+	grid-row: 2/3;
+	text-align: center;
+	background-color: red ;
+	border-radius: 30px;
+}
+
+.thirtitem{
+	grid-column: 3/3;
+	grid-row: 2/3;
+	text-align: center;
+	background-color: green ;
+	border-radius: 30px;
+}
+
+.fouritem {
+	grid-column: 1/1;
+	grid-row: 3/3;
+}
+
+.fiveitem{
+grid-column: 2/3;
+grid-row: 3/3;
+}
+
+.sixitem{
+grid-column: 3/3;
+grid-row: 3/3;
+}
+.fouritem ,.fiveitem ,.sixitem {
+	text-align: center;
+	background-color: grey;
+	border-radius: 30px;
+} 
+
+.panier{
+	text-align: center;
+	background-color: gold;
+	border-radius: 30px;
+}
