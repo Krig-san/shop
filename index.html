@@ -7,6 +7,33 @@
 	<title></title>
 </head>
 <body>
+	<h1>Hello <span id="nom"></span></h1>
+	<form id="saisi">
+		<input name="nom" placeholder="pomme rouge"/>
+		<input name="prix" placeholder=" 1,99$"/>
+		<select name="images">
+			<option value="Fraise.png">
+				fraise
+			</option>
+			<option value="Pomme.webp">
+				pomme
+			</option>
+		</select>
+		<select name="section">
+			<option>
+				Fruit
+			</option>
+			<option>
+				Légume
+			</option>
+		</select>
+		<input type="submit"/>
+	</form>
+	<p> panier :
+		 <span id="total">
+			
+		 </span>
+	</p>
 	<section>
 		<div class="">
 			<h1>🍉 Sofruit!
@@ -85,7 +112,7 @@
 		</div>
 	</section>
 	<section>
-	 <div class="container">
+	 <div id="legumes" class="container">
 			<div class="itemtitle">
 				<h2> Légume !</h2>
 				<p>Filtre :</p>

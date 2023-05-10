@@ -1,7 +1,7 @@
 {
-  
-  "fruits" : [
+   "fruits" : [
 	{
+		"id": 1,
 		"fruitNom": "Pomme rouge",
 		"classDiv": "firstitem",
 		"prix": "1,99",
@@ -9,18 +9,21 @@
 	},
 
 		{
+			"id": 2,
 			"fruitNom": "Pomme rouge2",
 			"classDiv": "seconditem",
 			"prix": "3,49",
 			"images": "Pommeverte.jpeg"
 		},
 		{
+				"id": 3,
 				"fruitNom": "Pomme rouge2",
 				"classDiv": "thirtitem",
 				"prix": "1,99",
 				"images": "Pomme.webp"
 		},
 		{
+				"id": 4,
 				"fruitNom": "Pomme rouge3",
 				"classDiv": "thirtitem",
 				"prix": "1,99",

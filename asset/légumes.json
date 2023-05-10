@@ -1,0 +1,24 @@
+{ 
+    "légumes" : [
+    
+        {
+        "légumeNom": "Pomme rouge",
+        "divClass": "firstitem",
+        "cash":"1,99",
+        "Pictures":"Pomme.webp"
+        },
+
+        {
+        "légumeNom": "Pomme Verte",
+        "divClass": "seconditem",
+        "cash":"1,99",
+        "Pictures":"Pomme verte.jpeg"
+        },
+        {
+        "légumeNom": "Mangue",
+        "divClass": "thirthitem",
+        "cash":"2",
+        "Pictures":"Mangue.jpeg"
+        }
+     ]
+}
